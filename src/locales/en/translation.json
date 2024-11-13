@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "about": "About Me",
+    "technologies": "Technologies",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "content": "I am a passionate full stack developer..."
+  },
+  "about": {
+    "content": "I am a dedicated and versatile full stack developer..."
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "year": "2023 - Present",
+        "role": "Senior Full Stack Developer",
+        "company": "Google Inc.",
+        "description": "Led a team in developing and maintaining web applications..."
+      }
+    ]
+  }
+} 
