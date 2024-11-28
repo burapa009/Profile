@@ -2,7 +2,7 @@ import projectEcommerce from "../assets/projects/projectEcommerce.png";
 
 export const HERO_CONTENT = `" Hello, I am currently looking for a job as a junior developer. I am interested in web application development and programming. " .`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects..`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer in training, with a growing passion for creating efficient and user-friendly web applications. As I continue my journey in web development, I am actively learning a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My curiosity for understanding how things work has driven me to pursue this career path, where I am committed to expanding my skills and tackling new challenges. I thrive in collaborative environments and enjoy exploring complex problems to develop high-quality solutions. Outside of coding, I stay active, explore emerging technologies, and look forward to contributing to open-source projects in the near future..`;
 
 export const EXPERIENCES = [
   {

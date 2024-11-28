@@ -39,11 +39,16 @@ const Experience = () => {
                   {experience.company}
                 </p>
                 
-                <div className="flex items-center gap-2 mb-4">
+                <div className="flex items-center gap-2 mb-4 flex-wrap">
                   <span className="text-sm text-neutral-400">Technologies:</span>
-                  <span className="px-3 py-1 bg-neutral-700/50 rounded-full text-sm text-sky-300">
-                    {experience.technologies}
-                  </span>
+                  {experience.technologies.split(',').map((tech, techIdx) => (
+                    <span 
+                      key={techIdx}
+                      className="px-3 py-1 bg-neutral-700/50 rounded-full text-sm text-sky-300 hover:bg-sky-500/20 transition-colors"
+                    >
+                      {tech.trim()}
+                    </span>
+                  ))}
                 </div>
 
                 <ul className="space-y-2 text-neutral-300">

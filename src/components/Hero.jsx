@@ -44,7 +44,7 @@ const Hero = () => {
                         <span className="absolute left-0 -bottom-2 h-1 w-0 bg-gradient-to-r 
                         from-blue-900 to-sky-500 transition-all duration-700 group-hover:w-full"></span>
                         <span className="before:content-[''] before:absolute before:right-0 
-                        before:top-0 before:h-full before:w-full before:bg-neutral-950 
+                        before:top-0 before:h-full before:w-full 
                         before:animate-typewriter group-hover:before:w-0 
                         before:transition-all before:duration-700  " >
                             
@@ -58,7 +58,7 @@ const Hero = () => {
                         <span className="absolute left-0 -bottom-1 h-1 w-0 bg-gradient-to-r 
                         from-pink-500 to-orange-500 transition-all duration-700 group-hover:w-full"></span>
                         <span className="before:content-[''] before:absolute before:right-0 
-                        before:top-0 before:h-full before:w-full before:bg-neutral-950 
+                        before:top-0 before:h-full before:w-full 
                         before:animate-typewriter group-hover:before:w-0 
                         before:transition-all before:duration-700">
                             Full Stack Developer

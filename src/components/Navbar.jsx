@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import logo from '../assets/generation2.png'
 import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa"
 
-
 const Navbar = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);

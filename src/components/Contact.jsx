@@ -1,4 +1,5 @@
 import { CONTACT } from '../constants'
+import GetFullYear from './footergetFullYear'
 
 const Contact = () => {
   return (
@@ -15,6 +16,7 @@ const Contact = () => {
                 {CONTACT.email}
             </a>
         </div>
+        <GetFullYear />
     </div>
     </section>
   )

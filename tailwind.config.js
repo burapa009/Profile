@@ -5,16 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      animation: {
-        'typewriter': 'typewriter 2s steps(20) forwards',
-      },
-      keyframes: {
-        typewriter: {
-          'to': { 'width': '0' },
-        },
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
